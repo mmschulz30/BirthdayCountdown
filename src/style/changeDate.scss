@@ -3,16 +3,21 @@
     grid-column: 4/5;
     justify-self: start;
 
-    font-size: 16px;
+    font-size: 18px;
     line-height: 19px;
     text-align: center;
+    font-family: $font-roboto;
     color: white;
-    font-weight: 600;
+    font-weight: 300;
 
     background-color: transparent;
     border: none;
 
-    transform: rotate(-69deg) translate(-50px, -50px);
+    transform: rotate(-69deg) translate(-60px, -60px);
+
+    &:focus {
+        outline: none;
+    }
 
     i{
         margin-right: 15px;
