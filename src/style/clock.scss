@@ -8,4 +8,33 @@
 
     -webkit-clip-path: polygon(7% 0, 100% 0, 93% 100%, 0% 100%);
     clip-path: polygon(7% 0, 100% 0, 93% 100%, 0% 100%);
+
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 275px));
+    align-items: center;
+    justify-items: center;
+
+    text-align: center;
+    justify-content: center;
+
+    &__box {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__title {
+        font-size: 22px;
+        line-height: 25px;
+        color: $color-yellow-one;
+        font-family: "Roboto Condensed";
+    }
+
+    &__amount {
+       font-size: 90px;
+       font-weight: bold;
+       line-height: 115px;
+       color: white;
+       font-family: "Roboto Condensed";
+    }
 }
