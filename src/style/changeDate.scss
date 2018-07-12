@@ -1,0 +1,21 @@
+.change-date {
+    grid-row: 2/3;
+    grid-column: 4/5;
+    justify-self: start;
+
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+
+    background-color: transparent;
+    border: none;
+
+    transform: rotate(-69deg) translate(-50px, -50px);
+
+    i{
+        margin-right: 15px;
+    }
+    
+}
